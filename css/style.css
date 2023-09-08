@@ -1,0 +1,48 @@
+.container{
+    background-color: hsl(20, 43%, 96%);
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    overflow-y:  scroll;
+    
+  }
+  .center{
+    display: block;
+    width: 50%;
+    margin:0 auto; 
+  }
+  h1{
+    margin:0;
+    padding-bottom: 50px;
+    text-align: center;
+    padding-right: 180px;
+  }
+  .gallery {
+      margin: 3px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 200px;
+      height:fit-content;
+      border-radius: 5px;
+     
+    }
+    
+    .gallery:hover {
+      border: 1px solid #777;
+    }
+    
+    .gallery img {
+      width: 100%;
+      height: auto;
+      
+    }
+    
+    .border p {
+      text-align: center;
+      width:fit-content;
+      height:fit-content;
+    }.border{
+      display: inline-flex;
+      width:fit-content;
+      height:fit-content;
+    }
